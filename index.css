@@ -1,3 +1,8 @@
+/* Global colour configuration */
+:root {
+    --space-black: #202020;
+}   
+
 /* Full-size with reduced padding */
 html, body {
     width: 100%;
@@ -14,9 +19,27 @@ html {
 body {
     margin: 0;
     padding: 1em;
+
+    background-color: var(--space-black);
 }
 
 /* Default font stack */
 * {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: white;
+}
+
+/* Title screen */
+#title-screen {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    padding: 0;
+    margin: 0;
+}
+
+#title-screen h1 {
+    text-align: center;
 }
