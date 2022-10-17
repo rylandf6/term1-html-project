@@ -43,3 +43,9 @@ body {
 #title-screen h1 {
     text-align: center;
 }
+
+#title-screen-play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
